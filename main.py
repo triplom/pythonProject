@@ -9,7 +9,7 @@ from random import random
 actions: list[int] = [+1, -1, -10, +10]
 
 
-def next_state(state: object, action: object) -> object:
+def next_state(state, action):
     if action == "up" and state > 10:
         return state - 10
     elif action == "down" and state < 91:
