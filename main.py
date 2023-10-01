@@ -1,5 +1,7 @@
-## Exercicio A
-# Actions 0-right(1), 1-left (-1), 2-up (-10) and 3-down (10)
+## Exercise A ##
+Actions = ["right(1)"], ["left (-1)"], ["up (-10)"], ["down (10)"]
+list(enumerate(Actions))
+
 from random import random
 
 actions = [1, -1, -10, 10]
@@ -27,18 +29,20 @@ def next_state(state, action):
 next_state(99, 3)
 print(next_state(1, 0))
 
-## Exercicio B
+## Exercise B
 def reward (state) :
-    if state = 100 :
+    if next_state == 100:
         reward = 100
-    else
+    else:
         reward = 0
 
-## Exercicio C
+
+## Exercise C
 
 random_action=random.randint(0,3)
 
 
-## Exercicio d
+## Exercise d
 
-while reward < 1000 or state != 100
+while state < 1000 or state != 100:
+    actions = random_action
